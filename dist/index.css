@@ -77,7 +77,7 @@ header {
 
 header .header__text {
   line-height: 1.5;
-  width: 420px;
+  width: 440px;
 }
 
 header .header__text h2 {
@@ -276,6 +276,12 @@ footer .footer__container .footer__columns {
     text-align: center;
     margin-top: 2rem;
     padding: 0.2rem;
+  }
+
+  header .header__text p{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
   }
 
   header .header__image {
