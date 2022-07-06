@@ -77,11 +77,11 @@ header {
 
 header .header__text {
   line-height: 1.5;
-  width: 440px;
+  width: 410px;
 }
 
 header .header__text h2 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 header .header__text p {
@@ -246,6 +246,16 @@ footer .footer__container .footer__columns {
 }
 
 /*================= MEDIA QUERIES ============================= */
+@media (max-width: 900px) {
+  header{
+    flex-direction: column;
+  }
+
+  .header__text{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
 
 @media (max-width: 768px) {
   .top__section__container {
@@ -274,8 +284,8 @@ footer .footer__container .footer__columns {
 
   .header__text {
     text-align: center;
-    margin-top: 2rem;
-    padding: 0.2rem;
+    padding-top: 2rem;
+    width: none;
   }
 
   header .header__text p{
@@ -353,6 +363,10 @@ footer .footer__container .footer__columns {
 }
 
 @media (max-width: 420px) {
+  .header__text{
+    margin: auto;
+  }
+
   header .header__image {
     width: 100%;
   }
